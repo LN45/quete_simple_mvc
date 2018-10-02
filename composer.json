@@ -7,7 +7,9 @@
             "email": "ln-45@live.fr"
         }
     ],
-    "require": {},
+    "require": {
+        "nikic/fast-route": "^1.3"
+    },
 
     "autoload": {
         "psr-4": {
