@@ -1,0 +1,16 @@
+{
+    "name": "ln/quete_simple_mvc",
+    "description": "Projet quete mvc2",
+    "authors": [
+        {
+            "name": "Helene Bloch",
+            "email": "ln-45@live.fr"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "": "src/"}
+    }
+}
