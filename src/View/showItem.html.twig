@@ -1,0 +1,13 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Item {{ item.title }}{% endblock %}
+{% block content %}
+    <ul>
+        <li>Title : {{ item.title }}</li>
+        <li>Id : {{ item.id }}</li>
+    </ul>
+    <a href='/'>Back to list</a>
+{% endblock %}
+
+
+
