@@ -5,7 +5,8 @@
 {% block content %}
     <ul>
         {% for item in items %}
-            <li>{{ item.title }}</li>
+            <a href="item/{{ item.id }}"> <li>{{ item.title }}</li></a>
         {% endfor %}
+        <a href="/add{{item.id}}">Ajouter</a>
     </ul>
 {% endblock %}
